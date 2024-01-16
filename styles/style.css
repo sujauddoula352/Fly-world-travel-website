@@ -1,9 +1,9 @@
 /* share style section */
 *{
-    margin: 0;
-    padding:0;
+    
     font-family: 'Mulish', 'sans-serif';
 }
+
 .common-text-content{
     max-width: 675px;
     font-size:1.15rem ;
@@ -15,7 +15,17 @@
 }
 .logo{
     width: 100px;
-    margin-top: 10px;}
+    margin-top: 10px;
+}
+ 
+.btn-primary{
+    width: 175px;
+    height: 52px;
+    border-radius: 8px;
+    background-color:#FF5400 ;
+    border: none;
+
+}
 
 
 /* Header section style Start */
@@ -25,11 +35,10 @@ header{
 header nav{
     display: flex;
     justify-content: space-between;
-    /* background-color: #fae2e2; */
     margin:10px 130px 94px 135px;
 }
 
-nav ul{
+nav > ul{
     display: flex;
     gap: 2.55em;
     list-style: none;
@@ -73,6 +82,50 @@ background: rgb(255, 0, 0);
 
 }
 /* Header section style End */
+
+
+/* Main section style */
+.Popular-Tour-container{
+    max-width: 1170px;
+    margin: 100px auto;
+
+}
+
+.Popular-Tour-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+ .tour-content h1 {
+    font-size:2.5rem ;
+    color:#131318;
+    margin-top: 0px;
+    
+}
+.Popular-Tour-container .tour-content-text{
+    max-width: 540px;
+    line-height: 26px;
+    padding-bottom:32px ;
+}
+.Popular-Tour-container .tour-content-img img{
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+
+
+}
+.tour-content-text > .btn-primary{
+    margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
 /* footer style section start */
 .footer-container{
     height: 510px;
