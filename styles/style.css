@@ -19,6 +19,7 @@
     text-align:center;
     font-size: 2.5rem;
     margin-bottom: 25px;
+    margin-top: 100px;
 
 }
 .logo{
@@ -41,26 +42,14 @@
     border: 1px solid rgba(251, 181, 99, 0.20);
     padding:32px ;
     margin-top: 42px;
-
-
-
-
-
 }
-.Choose-Us-item > .option1{
-    background: rgba(251, 181, 99, 0.05);
-}
-
-.Choose-Us-item > .option2{
-    background: rgba(41, 206, 246, 0.05);
-}
-.price-option{
+.Choose-Us-item{
     display: flex;
     justify-content: center;
+    gap: 24px;
 }
-.price-option .option3{
-    background: rgba(233, 68, 68, 0.05);
-}
+
+
 
 
 /* Header section style Start */
@@ -198,18 +187,32 @@ background: rgb(255, 0, 0);
 }
  */
 
+
+
 /* destination-container style end */
 
 /* Choose us item style start */
-.Choose-Us-item{
+/* .Choose-Us-item{
     display: flex;
     justify-content: center;
     gap: 24px;
-}
+} */
 
 .Choose-Us-option > .common-text-content{
     text-align: left;
 }
+.Choose-Us-item > .option1{
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.Choose-Us-item > .option2{
+    background: rgba(41, 206, 246, 0.05);
+}
+ 
+.price-option .option3{
+    background: rgba(233, 68, 68, 0.05);
+}
+
 /* Choose us item style end */
 
 
@@ -262,8 +265,6 @@ background: rgb(255, 0, 0);
     /*Mobile and small devices  */
     @media screen and (max-width:600px) {
     
-        
-        
         .Popular-Tour-container{
             flex-direction: column;
             padding: 20px;
@@ -272,15 +273,38 @@ background: rgb(255, 0, 0);
         .common-text-content{
            font-size: .87rem;
             line-height: 24px;
+            margin: auto;
+            margin: 20px;
 
         }
         .Popular-Tour-container .tour-content-img img{
             width: 330px;
             height: 340px;
             border-radius: 16px;
+            margin: auto;
         
     }
 
+.row{
+    flex-direction: column;
+}
+.destination-img .row img{
+    width: 100%;
+    height: 176px;
+    margin: auto;
+}
+
+ .Choose-Us-item{
+    flex-direction: column;
+    margin: 10px;
+ }
+ .Choose-Us-option{
+    width:335px;
+    height: 290px;
+    padding:20px ;
+    margin: auto;
+
+}
 
 
 
@@ -323,7 +347,12 @@ background: rgb(255, 0, 0);
     }
     
 
-
+    .Choose-Us-option{
+        width:397px;
+        height:356px;
+        padding:20px ;
+        margin: 20px;
+    }
 
 
 
