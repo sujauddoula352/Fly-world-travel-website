@@ -71,6 +71,10 @@ nav > ul{
     gap: 2.55em;
     list-style: none;
     align-items: center;
+
+}
+nav > ul span{
+    color: #FF5400;
 }
 nav ul a{
     text-decoration: none;
@@ -89,8 +93,14 @@ nav ul a{
     margin: 0px auto;
     border-radius: 1rem;
 }
+.banner-content{
+    color: #FFF;
+
+}
 .banner .banner-container{
     text-align: center;
+
+
 }
 .banner .banner-container h1{
     color: #FFF;
@@ -98,17 +108,35 @@ nav ul a{
     font-weight: 700px;
     padding-top: 30px;
 }
+  
 
-.banner .input{
+.banner form{
+display: inline-flex;
 padding: 16px;
 gap: 24px;
 border-radius: 8px;
-background: rgb(255, 0, 0);
-
-
-
-
+background: rgba(225, 208, 208, 0.49);
+margin: 48px 185px 106px 185px;
 }
+.banner form input, #type{
+    width: 174px;
+   height: 52px;
+   border-radius: 8px;
+   background: #FFF;
+   
+}
+#destination, #date, #email, #button, #type{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+}
+#type{
+    text-transform: capitalize;
+}
+#button{
+    background: #FF5400;
+    border: none;
+}
+
 /* Header section style End */
 
 
