@@ -6,7 +6,7 @@
 .content-paragraph{
     max-width: 675px;
     font-size:1.15rem ;
-    color:#000000;
+    color:rgba(19, 19, 24, 0.70);
     margin: 5px auto;
 
    
@@ -472,13 +472,48 @@ background: rgb(255, 0, 0);
           
 
         }
+
+
+            .deals-container .low-deals, .medium-deals, .hot-deals {
+                width: 335;
+                height: 450px;
+                margin-bottom: 30px;
+             border: 2px solid rgb(221, 185, 185);
+                border-radius: 16px;
+            }
+        
+        .deals-container .deals > .deals-content{
+            width: 303px;
+             height: 297px;
+             border-radius: 16px;
+             border: 2px solid #FFF;
+             background: rgba(255, 255, 255, 0.80);
+             padding-left: 10px;
+           }
+
+           .deals-container .low-deals, .hot-deals{
+            padding:10px;
+        }
+        .medium-deals{
+            padding: 10px ;
+        }
+        .deals-container .deals > .deals-content button{
+            width: 130px;
+            height: 40px;
+            border-radius: 8px;
+            font-size: 1.25rem;
+           
+        }
+
+
+
         .Popular-Tour-container .tour-content-img img{
             width: 330px;
             height: 340px;
             border-radius: 16px;
             margin: auto;
         
-    }
+       }
 
 .row{
     flex-direction: column;
