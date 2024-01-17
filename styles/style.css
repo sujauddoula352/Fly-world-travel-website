@@ -290,16 +290,20 @@ background: rgb(255, 0, 0);
   }
 
   .Newsletter > .Newsletter-img img {
-    height:400px;  
+    height:422px;  
     border-radius: 16px;
     border: 2px solid rgb(237, 215, 211);
     background: lightgray 50% / cover no-repeat;
   }
   .Newsletter > .Newsletter-img > .offer{
-    width: 324px;
+    width: 300px;
     height: 120px;
     border-radius: 16px;
     background: #FF5400;
+    position: relative;
+    transform: rotate(-29.950deg);
+    left: 370px;
+    bottom: 188px;
   }
   .Newsletter > .Newsletter-img > .offer h3{
     color: #FFF;
@@ -422,8 +426,40 @@ background: rgb(255, 0, 0);
 }
 
 
-    
-   
+.Newsletter{
+   flex-direction: column;
+    margin: auto;
+    gap: 50px;
+    padding: 10px;
+    }
+    #name, #email {
+        font-size: 1.12rem;
+        line-height: 20px;
+        padding: 15px 60px 15px 20px;
+    }
+
+#submit {
+    padding: 14px 100px;
+}
+.Newsletter > div form hr {
+    width: 290px;
+
+}
+.Newsletter > .Newsletter-img img {
+    height: 225px;
+}
+.Newsletter > .Newsletter-img > .offer {
+    width: 170px;
+    height: 85px;
+    left: 185px;
+    bottom: 120px 
+}
+.Newsletter > .Newsletter-img > .offer h3 {
+    font-size: .95rem;
+}
+.Newsletter > .Newsletter-img > .offer h2 {  
+ font-size: 1.25rem;    
+}
     .footer-container .social-logo {
         padding: 20px;
         
