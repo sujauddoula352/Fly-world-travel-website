@@ -20,7 +20,7 @@
     margin-top: 100px;
 
 }
-.logo{
+.logo > a > img{
     width: 100px;
     margin-top: 10px;
 }
@@ -60,12 +60,20 @@
 header{
     background-color: #ffffff;
 }
-header nav{
+nav{
     display: flex;
     justify-content: space-between;
-    margin:10px 130px 94px 135px;
+    margin:10px 30px; 
+    position: relative;
 }
+.menu-icon{
+    display: none;
+}
+.menu-icon i{
+    font-size: 30px;
+    display: none;
 
+}
 nav > ul{
     display: flex;
     gap: 2.55em;
@@ -488,15 +496,29 @@ margin-top: 20px;
 /* Responsive Section */
     /*Mobile and small devices  */
     @media screen and (max-width:600px) {
-        header nav{
-            flex-direction: column;
-            justify-content: left;
+       
+        nav{
+            margin: 0px;
         }
         nav > ul{
             display: none;
+            
+        }
+        .logo > a > img {
+            width: 80px;
+            margin:0px;
         }
     
-     
+        .menu-icon{
+            display:block;
+            margin-top: 30px;
+            margin-left: 10px;
+            
+        }
+        .menu-icon i{
+            display: block;
+            
+        }
         .banner-content{
             padding: 8px;
             font-size: 15px;
